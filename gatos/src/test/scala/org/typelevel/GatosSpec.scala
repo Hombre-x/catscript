@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.typelevel.catscript
+package org.typelevel.gatos
 
 import weaver.SimpleIOSuite
 import weaver.scalacheck.Checkers

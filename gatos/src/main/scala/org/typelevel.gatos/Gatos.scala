@@ -29,7 +29,7 @@ import scala.concurrent.duration.FiniteDuration
 
 import java.nio.charset.Charset
 
-object Catscript {
+object Gatos {
 
   private val files: Files[IO] = Files[IO]
 

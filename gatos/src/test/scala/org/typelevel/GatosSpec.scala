@@ -32,7 +32,7 @@ import scala.concurrent.duration.*
 
 import syntax.path.*
 
-object CatscriptSpec extends SimpleIOSuite with Checkers {
+object GatosSpec extends SimpleIOSuite with Checkers {
 
   test("The API should delete a file") {
     withTempFile { path =>

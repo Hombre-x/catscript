@@ -19,9 +19,9 @@ import cats.syntax.all.*
 import fs2.Stream
 import fs2.io.file.{Path, Files}
 
-import org.typelevel.catscript
-import catscript.syntax.path.*
-import catscript.Gatos
+import org.typelevel.gatos
+import gatos.syntax.path.*
+import gatos.Gatos
 
 val path = Path("testdata/dummy.something")
 ```
@@ -31,7 +31,7 @@ val path = Path("testdata/dummy.something")
 @:choice(syntax)
 
 ```scala mdoc:compile-only
-import catscript.syntax.path.*
+import gatos.syntax.path.*
 
 val path = Path("path/to/create/file.txt")
 
@@ -41,7 +41,7 @@ path.createFile >> path.exists // Should return true
 @:choice(static)
 
 ```scala mdoc:compile-only
-import catscript.Gatos
+import gatos.Gatos
 
 val path = Path("path/to/create/file.txt")
 
@@ -389,7 +389,7 @@ yield ()
 
 ## File operations
 
-catscript provides essential functions for renaming, moving, and copying files, allowing you to efficiently manage your data. These are especially useful in scripting scenarios.  
+gatos provides essential functions for renaming, moving, and copying files, allowing you to efficiently manage your data. These are especially useful in scripting scenarios.  
 
 ### `copy`
 

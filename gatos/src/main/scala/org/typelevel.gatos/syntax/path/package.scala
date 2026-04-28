@@ -14,13 +14,11 @@
  * limitations under the License.
  */
 
-package org.typelevel.catscript
-package syntax
+package org.typelevel.gatos.syntax
 
 import cats.effect.IO
-
 import fs2.io.file.*
-
+import org.typelevel.gatos.Catscript
 import scodec.bits.ByteVector
 import scodec.Codec
 

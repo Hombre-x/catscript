@@ -4,7 +4,6 @@ import laika.config.*
 ThisBuild / tlBaseVersion := "0.0"
 ThisBuild / startYear     := Some(2024)
 ThisBuild / licenses      := Seq(License.Apache2)
-ThisBuild / tlJdkRelease  := Some(11)
 
 ThisBuild / developers := List(
   tlGitHubDev("ChristopherDavenport", "Christopher Davenport"),

@@ -39,7 +39,6 @@ lazy val catscript = crossProject(JVMPlatform, JSPlatform, NativePlatform)
       "org.typelevel" %% "weaver-cats"       % "0.12.0" % Test,
       "org.typelevel" %% "weaver-scalacheck" % "0.12.0" % Test
     ),
-    mimaPreviousArtifacts := Set()
   )
 
 lazy val examples = project
